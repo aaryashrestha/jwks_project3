@@ -15,7 +15,7 @@ Enhance the JWKS server by encrypting private keys, adding user registration, lo
 
 ## Setup
 
-export NOT_MY_KEY="your_secret_key"
-pip install -r requirements.txt
-python server/jwks_server.py
-pytest --cov=server --cov-report=term-missing
+- export NOT_MY_KEY="your_secret_key"
+- pip install -r requirements.txt
+- python server/jwks_server.py
+- pytest --cov=server --cov-report=term-missing
